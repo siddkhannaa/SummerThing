@@ -29,7 +29,7 @@ const FooBarForm = () => {
   return (
     <form>
       <input className = "input" id = "name1" name="Name1" onChange={handleChange} />
-      <button className="btn-group" onClick={handleSubmit}><img src={"../heart.png"} /></button>
+      <button className="btn-group" onClick={handleSubmit}><img src={"heart.PNG"} /></button>
     </form>
   );
 };
