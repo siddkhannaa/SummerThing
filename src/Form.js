@@ -11,6 +11,14 @@ const initialFormData = Object.freeze({
 const FooBarForm = () => {
   const [values, setValues] = useState(initialFormData);
 
+  const options = {
+      method: 'GET',
+      headers: {
+        'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
+        'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com'
+      }
+  };
+
   const handleChange = (e) => {
     setValues({...values, [e.target.name]: e.target.value});
   };
@@ -18,12 +26,11 @@ const FooBarForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try {
-        // api route 
-
-    } catch (error) {
-      console.log(error);
-    }
+    fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${values.name1}&sname=${values.name2}`,
+      options)
+      .then(response => response.json())
+      .then(response => console.log(response))
+      .catch(err => console.error(err));
   };
 
 
