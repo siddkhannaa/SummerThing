@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SummerThing/static/css/main.073c9b0a.css",
-    "main.js": "/SummerThing/static/js/main.750777af.js",
+    "main.css": "/SummerThing/static/css/main.3cdb9d3a.css",
+    "main.js": "/SummerThing/static/js/main.af773b4e.js",
     "static/js/787.a7c66718.chunk.js": "/SummerThing/static/js/787.a7c66718.chunk.js",
-    "static/media/logo.svg": "/SummerThing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/bg.jpg": "/SummerThing/static/media/bg.7337fba50c590ecc7138.jpg",
     "index.html": "/SummerThing/index.html",
-    "main.073c9b0a.css.map": "/SummerThing/static/css/main.073c9b0a.css.map",
-    "main.750777af.js.map": "/SummerThing/static/js/main.750777af.js.map",
+    "main.3cdb9d3a.css.map": "/SummerThing/static/css/main.3cdb9d3a.css.map",
+    "main.af773b4e.js.map": "/SummerThing/static/js/main.af773b4e.js.map",
     "787.a7c66718.chunk.js.map": "/SummerThing/static/js/787.a7c66718.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.750777af.js"
+    "static/css/main.3cdb9d3a.css",
+    "static/js/main.af773b4e.js"
   ]
 }
