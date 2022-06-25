@@ -1,19 +1,20 @@
 # dependencies
-illuminate/node_modules
-illuminate/.pnp
-illuminate/.pnp.js
+node_modules/
+.pnp
+.pnp.js
 
 # testing
-illuminate/coverage
+coverage
 
 # production
-illuminate/build
+build/
 
 # misc
-illuminate/.DS_Store
-illuminate/.env.local
-illuminate/.env.development.local
-illuminate/.env.test.local
-illuminate/.env.production.local
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-illuminate/npm-debug.log*
+npm-debug.log*
+node_modules
