@@ -5,9 +5,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "CI-workflow" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "CI-workflow" ]
 
 jobs:
   build:
@@ -16,15 +16,14 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-        
-    - name: Navigate to directory
-      run: cd illuminate
+      with:
+        ref: CI-workflow
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -33,7 +32,7 @@ jobs:
         cache: 'npm'
         
     - name: Install dependencies
-      run: npm ci
+      run: npm install
       
     - name: Run tests
       run: npm test
