@@ -22,9 +22,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-        
-    - name: Navigate to directory
-      run: cd illuminate
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
