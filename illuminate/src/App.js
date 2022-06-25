@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
 import './App.css';
+import Form from './Form';
 
-function App() {
-
-  const getInputValue = (event) => {
-    const userValue = event.target.value;
-
-    console.log(userValue);
-  };
-
+class App extends Component {
+  render () {
   return [
-    <header class="topnav">
-    </header>,
-      <div className = "boxes"> 
-      <input type="text" placeholder="Person 1" onChange={getInputValue} />
-      <input type="text" placeholder="Person 2" onChange={getInputValue} />
-    </div>
-    
-  ];
+      <head>
+        <title> Summer Fling </title>
+      </head>,
+      <div className="header">
+        Summer Fling
+      </div>,
+      <div class = "topnav">
+        <a href = "./">Home</a>
+      </div>,
+      <body>
+      <div className = "boxes">
+        <Form />
+        <Form />
+      </div>
+      </body>
+      ];
+  }
 }
 
 export default App;
