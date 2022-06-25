@@ -12,7 +12,6 @@ function App() {
   return [
     <header class="topnav">
     </header>,
-    <div class="moob" >hi</div>,
     <div className = "boxes"> 
       <input className="rounded" type="text" placeholder="Person 1" onChange={getInputValue} />
       <button className="rounded" />
