@@ -38,9 +38,9 @@ const FooBarForm = () => {
   return (
     <form>
       <div className = "boxes"> 
-        <input className="rounded" name="name1" type="text" placeholder="Person 1" onChange={handleChange} />
+        <input className="rounded" name="name1" type="text" placeholder="Your Name" onChange={handleChange} />
         <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="hello"></img></button>
-        <input className="rounded" name="name1" type="text" placeholder="Person 2" onChange={handleChange} />
+        <input className="rounded" name="name1" type="text" placeholder="Their Name" onChange={handleChange} />
       </div>
     </form>
   );

@@ -65,6 +65,10 @@ input[type=text]:focus {
   margin: 5px;
 }
 
+.boxes input:focus {
+  outline-width: 0;
+}
+
 .boxes button {
   background: pink;
   width: 40px;
@@ -125,9 +129,10 @@ input[type=text]:focus {
 }
 
 .heart {
-  align-self: stretch;
-  height: 40px;
-  width: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .header {
