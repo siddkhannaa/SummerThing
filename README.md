@@ -1,5 +1,5 @@
 
-<a href="https://github.com/siddkhannaa/SummerThing/">
+<a href="https://github.com/siddkhannaa/summer-fling/">
   <!-- ADD PROJECT IMG 
     <img src="https://i.imgur.com/88Gwvsz.png" alt="TikTokTLDR logo" title="TikTokTLDR" align="right" justify-content="center" height="60" />
   -->
@@ -72,7 +72,7 @@ To see our project in action, watch a quick demo on YouTube!
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/siddkhannaa/SummerThing.git
+   git clone https://github.com/siddkhannaa/summer-fling.git
    ```
 3. Install NPM packages
    ```sh
