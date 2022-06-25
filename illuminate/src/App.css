@@ -1,10 +1,41 @@
+body {
+  background-image: url(./images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* width: 100vw; */
+  /* height: 100vh; */
+}
+
+.container {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+  position: relative;
+}
+
+.container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px;
+  /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px); */
+}
+
 .boxes {
+  width: auto;
   align-items: center;
   display: flex;
   font-family: 'Inter UI', sans-serif;
   font-size: 14px;
   justify-content: center;
   margin: 25;
+  /* height: 100vh; */
 }
 
 input[type=text]:focus {
@@ -12,9 +43,24 @@ input[type=text]:focus {
 }
 
 .boxes input {
-  background: pink;
-  border: 3;
+  background: whitesmoke;
+  /* border: 3; */
+  height: 30px;
   font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.boxes button {
+  background: pink;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.rounded {
+  border-radius: 10px;
+  border: none;
 }
 
 .topnav {

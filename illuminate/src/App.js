@@ -12,11 +12,12 @@ function App() {
   return [
     <header class="topnav">
     </header>,
-      <div className = "boxes"> 
-      <input type="text" placeholder="Person 1" onChange={getInputValue} />
-      <input type="text" placeholder="Person 2" onChange={getInputValue} />
-    </div>
-    
+    <div className = "boxes"> 
+      <input className="rounded" type="text" placeholder="Person 1" onChange={getInputValue} />
+      <input className="rounded" type="text" placeholder="Person 2" onChange={getInputValue} />
+      <button className="rounded" />
+    </div>,
+    <div className="container"></div>
   ];
 }
 
