@@ -3,14 +3,15 @@ import React  from 'react';
 import './App.css'
 
 const initialFormData = Object.freeze({
-  name: "",
+  name1: "",
+  name2: "",
 });
 
 const FooBarForm = () => {
-  const [name, setName1] = useState(initialFormData);
+  const [values, setValues] = useState(initialFormData);
 
   const handleChange = (e) => {
-    setName1(e.target.value);
+    setValues({...values, [e.target.name]: e.target.value});
   };
 
   const handleSubmit = async (e) => {
@@ -28,9 +29,9 @@ const FooBarForm = () => {
   return (
     <form>
       <div className = "boxes"> 
-        <input className="rounded" type="text" placeholder="Person 1" onChange={handleChange} />
+        <input className="rounded" name="name1" type="text" placeholder="Person 1" onChange={handleChange} />
         <button className="rounded" onClick={handleSubmit} />
-        <input className="rounded" type="text" placeholder="Person 2" onChange={handleChange} />
+        <input className="rounded" name="name1" type="text" placeholder="Person 2" onChange={handleChange} />
       </div>
     </form>
   );

@@ -91,7 +91,7 @@ input[type=text]:focus {
     text-align: center;
     align-items: flex-start;
     cursor: default;
-    background-color: red;
+    background-color: pink;
     box-sizing: border-box;
     font: 400 11px;
     padding: 1px 7px 2px;
