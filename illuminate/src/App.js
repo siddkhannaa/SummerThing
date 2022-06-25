@@ -8,17 +8,8 @@ class App extends Component {
       <head>
         <title> Summer Fling </title>
       </head>,
-      <div className="header">
-        Summer Fling
-      </div>,
-      <div class = "topnav">
-        <a href = "./">Home</a>
-      </div>,
       <body>
-      <div className = "boxes">
-        <Form />
-        <Form />
-      </div>
+      <Form />
       </body>
       ];
   }

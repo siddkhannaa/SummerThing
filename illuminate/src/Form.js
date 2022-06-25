@@ -28,8 +28,11 @@ const FooBarForm = () => {
 
   return (
     <form>
-      <input className = "input" id = "name1" name="Name1" onChange={handleChange} />
-      <button className="btn-group" onClick={handleSubmit}><img src={"../heart.png"} /></button>
+      <div className = "boxes"> 
+        <input className="rounded" type="text" placeholder="Person 1" onChange={getInputValue} />
+        <button className="rounded" />
+        <input className="rounded" type="text" placeholder="Person 2" onChange={getInputValue} />
+      </div>
     </form>
   );
 };
