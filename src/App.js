@@ -9,7 +9,7 @@ class App extends Component {
         <title> Summer Fling </title>
       </head>,
       <body>
-      <Form />
+        <Form />
       </body>
       ];
   }
