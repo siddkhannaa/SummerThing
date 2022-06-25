@@ -5,10 +5,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "CI-workflow" ]
   pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches: [ "CI-workflow" ]
 
 jobs:
   build:
