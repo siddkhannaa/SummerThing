@@ -1,12 +1,6 @@
 import { useState } from "react";
-import React, { Component }  from 'react';
+import React  from 'react';
 import './App.css'
-
-const getInputValue = (event) => {
-  const userValue = event.target.value;
-
-  console.log(userValue);
-};
 
 const initialFormData = Object.freeze({
   name: "",
@@ -34,9 +28,9 @@ const FooBarForm = () => {
   return (
     <form>
       <div className = "boxes"> 
-        <input className="rounded" type="text" placeholder="Person 1" onChange={getInputValue} />
-        <button className="rounded" />
-        <input className="rounded" type="text" placeholder="Person 2" onChange={getInputValue} />
+        <input className="rounded" type="text" placeholder="Person 1" onChange={handleChange} />
+        <button className="rounded" onClick={handleSubmit} />
+        <input className="rounded" type="text" placeholder="Person 2" onChange={handleChange} />
       </div>
     </form>
   );
