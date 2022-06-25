@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
     return(
-        <List />
+        <List fname="bob" sname="alsobob" />
     )
 }
 

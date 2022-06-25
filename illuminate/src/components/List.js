@@ -2,7 +2,7 @@ import React from "react";
 
 import '../App.css';
 
-class List extends React.Component {
+export class List extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -12,7 +12,7 @@ class List extends React.Component {
     }
 
     componentDidMount() {
-        fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${props.fname}&sname=${props.sname}`)
+        fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${this.props.fname}&sname=${this.props.sname}`)
     }
     
     render() {
@@ -27,5 +27,3 @@ class List extends React.Component {
         }
     }
 }
-
-export default List;
