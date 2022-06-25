@@ -130,3 +130,12 @@ input[type=text]:focus {
   width: 40px;
   justify-content: left;
 }
+
+.header {
+    overflow: hidden;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font: 25px Roboto, serif;
+}
