@@ -146,7 +146,7 @@ input[type=text]:focus {
 
 .footer {
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   right: 5px;
   text-align: right;
   
