@@ -5,9 +5,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ "CI-workflow" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "CI-workflow" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -22,8 +22,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      with:
-        ref: CI-workflow
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
