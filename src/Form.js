@@ -2,6 +2,7 @@ import { useState } from "react";
 import React  from 'react';
 import './App.css'
 import heart from './images/heart2.jpg'
+import Results from "./components/result";
 
 const initialFormData = Object.freeze({
   name1: "",
@@ -29,7 +30,7 @@ const FooBarForm = () => {
     fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${values.name1}&sname=${values.name2}`,
       options)
       .then(response => response.json())
-      .then(response => console.log(response))
+      .then(response => Results(response.result))
       .catch(err => console.error(err));
   };
 
