@@ -1,6 +1,6 @@
 
 <a href="https://github.com/siddkhannaa/SummerThing/">
-  <!-- ADD PROJECT IMG -->
+  <!-- ADD PROJECT IMG 
     <img src="https://i.imgur.com/88Gwvsz.png" alt="TikTokTLDR logo" title="TikTokTLDR" align="right" justify-content="center" height="60" />
   -->
 </a>
