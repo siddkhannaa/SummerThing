@@ -1,10 +1,55 @@
+body {
+  background-image: url(./images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* width: 100vw; */
+  /* height: 100vh; */
+}
+
 .boxes {
+  width: 30rem;
+  height: 16rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+  background: inherit;
+  overflow: hidden;
+  border-radius: 20px;
+  z-index: 1;
+  
+  position: relative;
+  top: 10rem;
+  left: 1rem;
+  margin: auto;
+  padding: 10px;
+
+
+  /* elysia boxes */
+  width: min-content;
+  height: min-content;
   align-items: center;
   display: flex;
   font-family: 'Inter UI', sans-serif;
   font-size: 14px;
   justify-content: center;
   margin: 25;
+
+}
+
+.boxes:before {
+  content: '';
+  position: absolute;
+  background: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(0,0,0, .8);
+  filter: blur(20px);
+  margin: -20px;
+  z-index: -1;
+  /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px); */
 }
 
 input[type=text]:focus {
@@ -12,26 +57,69 @@ input[type=text]:focus {
 }
 
 .boxes input {
-  background: pink;
-  border: 3;
+  background: whitesmoke;
+  /* border: 3; */
+  height: 30px;
   font-size: 20px;
+  padding: 5px;
+  margin: 5px;
 }
 
-.topnav {
+.boxes button {
+  background: pink;
+  width: 40px;
+  height: 40px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rounded {
+  border-radius: 10px;
+  border: none;
+}
+
+.boxes button {
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: pink;
+    box-sizing: border-box;
+    font: 400 11px;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+.button-hover {
+  background: #1a202c;
+  color: #ffffff;
+}
+
+.btn-group {
   overflow: hidden;
-  background-color: #ff0123;
-}
-
-.topnav {
-  display: block;
-  color: #f2f2f2;
+  border : 1px;
+  padding: 10px 24px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  width: 100%;
+  color: #B19DFF;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font: 20px Roboto, serif;
+  float: right;
 }
+.form-style{
+  display: block;
+  border: 0;
+  padding-bottom: 10px;
 
-.topnav hover {
-  background-color: #ddd;
-  color: black;
 }
