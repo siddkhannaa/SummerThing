@@ -143,3 +143,11 @@ input[type=text]:focus {
     font-family: sans-serif;
     font-size: 40px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  text-align: right;
+  
+}
