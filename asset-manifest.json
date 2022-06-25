@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SummerThing/static/css/main.3cdb9d3a.css",
-    "main.js": "/SummerThing/static/js/main.af773b4e.js",
+    "main.js": "/SummerThing/static/js/main.7321b3db.js",
     "static/js/787.a7c66718.chunk.js": "/SummerThing/static/js/787.a7c66718.chunk.js",
     "static/media/bg.jpg": "/SummerThing/static/media/bg.7337fba50c590ecc7138.jpg",
     "index.html": "/SummerThing/index.html",
     "main.3cdb9d3a.css.map": "/SummerThing/static/css/main.3cdb9d3a.css.map",
-    "main.af773b4e.js.map": "/SummerThing/static/js/main.af773b4e.js.map",
+    "main.7321b3db.js.map": "/SummerThing/static/js/main.7321b3db.js.map",
     "787.a7c66718.chunk.js.map": "/SummerThing/static/js/787.a7c66718.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cdb9d3a.css",
-    "static/js/main.af773b4e.js"
+    "static/js/main.7321b3db.js"
   ]
 }
