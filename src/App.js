@@ -1,25 +1,15 @@
-import React from 'react';
+import React, { Component } from "react";
 
 import { List } from './components/List.js';
 import './App.css';
+import Form from './Form';
 
-function App() {
-  const getInputValue = (event) => {
-    const userValue = event.target.value;
-
-    console.log(userValue);
-  };
-
+class App extends Component {
+  render () {
   return [
-    <header class="topnav">
-    </header>,
-      <div className = "boxes"> 
-      <input type="text" placeholder="Person 1" onChange={getInputValue} />
-      <input type="text" placeholder="Person 2" onChange={getInputValue} />
+      <title> Summer Fling </title>,
+      <Form />,
       <List fname="bob" sname="alsobob" />
-    </div>
-    
-  ];
+      ];
+  }
 }
-
-export default App;
