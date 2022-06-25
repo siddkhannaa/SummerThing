@@ -2,22 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-
-  const getInputValue = (event) => {
-    const userValue = event.target.value;
-
-    console.log(userValue);
-  };
-
-  return [
-    <header class="topnav">
-    </header>,
-      <div className = "boxes"> 
-      <input type="text" placeholder="Person 1" onChange={getInputValue} />
-      <input type="text" placeholder="Person 2" onChange={getInputValue} />
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-    
-  ];
+  );
 }
 
 export default App;
