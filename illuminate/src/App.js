@@ -16,8 +16,8 @@ function App() {
       <div className = "boxes"> 
       <input type="text" placeholder="Person 1" onChange={getInputValue} />
       <input type="text" placeholder="Person 2" onChange={getInputValue} />
+      <List fname="bob" sname="alsobob" />
     </div>
-    <List fname="bob" sname="alsobob" />
     
   ];
 }
