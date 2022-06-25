@@ -5,7 +5,7 @@
   -->
 </a>
 
-# SummerThing
+# Summer Fling
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 
@@ -13,7 +13,7 @@
 <div align="center">
 
 
-<h3 align="center">SummerThing</h3>
+<h3 align="center">Summer Fling</h3>
   <p align="center">
     😍 Discover the compatibility between two unknowing individuals 😳 <br />
     <br />
@@ -26,7 +26,7 @@
 
 ## About The Project
 
-The [SummerThing] aims to discover the compatibility between two unknowing individuals 😍.
+The Summer Fling aims to discover the compatibility between two unknowing individuals 😍.
 
 
 To see our project in action, watch a quick demo on YouTube!
