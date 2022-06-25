@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React  from 'react';
 import './App.css'
-import heart from './images/heart.jpg'
+import heart from './images/heart2.jpg'
 
 const initialFormData = Object.freeze({
   name1: "",
