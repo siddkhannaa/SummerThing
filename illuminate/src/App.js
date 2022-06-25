@@ -12,10 +12,11 @@ function App() {
   return [
     <header class="topnav">
     </header>,
+    <div class="moob" >hi</div>,
     <div className = "boxes"> 
       <input className="rounded" type="text" placeholder="Person 1" onChange={getInputValue} />
-      <input className="rounded" type="text" placeholder="Person 2" onChange={getInputValue} />
       <button className="rounded" />
+      <input className="rounded" type="text" placeholder="Person 2" onChange={getInputValue} />
     </div>,
     <div className="container"></div>
   ];
