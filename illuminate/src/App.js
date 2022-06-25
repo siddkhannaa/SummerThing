@@ -4,9 +4,22 @@ import { List } from './components/List.js';
 import './App.css';
 
 function App() {
-    return(
-        <List fname="bob" sname="alsobob" />
-    )
+  const getInputValue = (event) => {
+    const userValue = event.target.value;
+
+    console.log(userValue);
+  };
+
+  return [
+    <header class="topnav">
+    </header>,
+      <div className = "boxes"> 
+      <input type="text" placeholder="Person 1" onChange={getInputValue} />
+      <input type="text" placeholder="Person 2" onChange={getInputValue} />
+    </div>
+    <List fname="bob" sname="alsobob" />
+    
+  ];
 }
 
 export default App;
