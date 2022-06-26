@@ -9,7 +9,6 @@ const initialFormData = Object.freeze({
   name2: "",
 });
 
-
 const FooBarForm = () => {
   const [values, setValues] = useState(initialFormData);
   const [submitted, setIsSubmitted] = useState(false);
@@ -48,7 +47,7 @@ const FooBarForm = () => {
     <form>
       <div className = "boxes"> 
         <input className="rounded" name="name1" type="text" placeholder="Your Name" onChange={handleChange} />
-        <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="heart"></img></button>
+        <button className="rounded" id="heart_button" onClick={handleSubmit }><img className = "heart" src={heart} alt="heart"></img></button>
         <input className="rounded" name="name2" type="text" placeholder="Their Name" onChange={handleChange} />
       </div>
     </form>

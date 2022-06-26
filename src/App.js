@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import './App.css';
 import Form from './components/Form';
+import EmojiRain from './components/EmojiRain.js';
 
 class App extends Component {
   render () {
@@ -9,13 +10,11 @@ class App extends Component {
     <div className="header"> 
       <h1>😳 Summer Fling 😳</h1>
     </div>,
-    <rain />,
+    <animate />,
     <Form />,
-    <footer>
       <div className="footer">
         <p>Copyright (c) 2022 Siddharth Khanna</p>
       </div>
-    </footer>
       ];
   }
 }
