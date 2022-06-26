@@ -9,8 +9,9 @@ body {
 }
 
 .boxes {
-  width: 30rem;
-  height: 16rem;
+  
+  width: min-content;
+  height: min-content;
   box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
   background: inherit;
   overflow: hidden;
@@ -25,14 +26,13 @@ body {
 
 
   /* elysia boxes */
-  width: min-content;
-  height: min-content;
+  
   align-items: center;
   display: flex;
   font-family: 'Inter UI', sans-serif;
   font-size: 14px;
   justify-content: center;
-  margin: 25;
+  /* margin: 25; */
 
 }
 

