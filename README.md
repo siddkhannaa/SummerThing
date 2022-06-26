@@ -1,8 +1,6 @@
 
 <a href="https://github.com/siddkhannaa/summer-fling/">
-  <!-- ADD PROJECT IMG 
-    <img src="https://i.imgur.com/88Gwvsz.png" alt="TikTokTLDR logo" title="TikTokTLDR" align="right" justify-content="center" height="60" />
-  -->
+    <img src="https://imgur.com/V5pMBBy.png" alt="Summer fling logo" title="Summer Fling" align="right" justify-content="center" height="60" />
 </a>
 
 # Summer Fling
@@ -15,7 +13,8 @@
 
 <h3 align="center">Summer Fling</h3>
   <p align="center">
-    😍 Discover the compatibility between two unknowing individuals 😳 <br />
+    😍 Discover the compatibility between two unsuspecting individuals 😳 <br />
+    ❤️ Match your friends in this ultimate calculator and who knows...it might just lead to a summer fling! ❤️
     <br />
     <br />
     <strong>Freyhacks2022 submission</strong>
@@ -26,7 +25,10 @@
 
 ## About The Project
 
-The Summer Fling aims to discover the compatibility between two unknowing individuals 😍.
+The Summer Fling aims to discover the compatibility between two unsuspecting individuals 😍.
+Did you ever wonder how compatible you are with your (not-so-secret) crush? How about if your two best friends should get together? Well with our open-source love calculator, you can easily find out! Simply deploy the website on GitHub and enter two names. Share your results with confidence and become a love guru!
+
+Summer Fling is not liable for any emotional damages. Side effects may include heartbreak, depression and/or death.
 
 
 To see our project in action, watch a quick demo on YouTube!
@@ -50,6 +52,7 @@ To see our project in action, watch a quick demo on YouTube!
 
 ## Gallery
 
+<img src="https://imgur.com/V5pMBBy.png" alt="Summer fling logo" title="Summer Fling" width="30%" />
 <!-- ADD IMAGES HERE
 <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/249/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/267/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/250/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/277/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/306/datas/original.png" width="45%"></img> 
 -->
