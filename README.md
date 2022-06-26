@@ -3,7 +3,7 @@
     <img src="https://imgur.com/V5pMBBy.png" alt="Summer fling logo" title="Summer Fling" align="right" justify-content="center" height="60" />
 </a>
 
-# Summer Fling
+# Summer Fling 😳🏖
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 
@@ -16,22 +16,22 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About The Project 📚
 
 The Summer Fling aims to discover the compatibility between two unsuspecting individuals 😍.
-Did you ever wonder how compatible you are with your (not-so-secret) crush? How about if your two best friends should get together? Well with our open-source love calculator, you can easily find out! Simply deploy the website on GitHub and enter two names. Share your results with confidence and become a love guru!
+Did you ever wonder how compatible you are with your (not-so-secret) crush? How about if your two best friends should get together? Well with our open-source love calculator, you can easily find out! Simply open the website on your favourite browser, or deploy it yourself from GitHub and enter two names. Share your results with confidence and become a love guru!
 
-Summer Fling is not liable for any emotional damages. Side effects may include heartbreak, depression and/or death.
+**NOTE**: Summer Fling is not liable for any emotional damages. Side effects may include heartbreak, depression and/or death 💀.
 
 
-To see our project in action, watch a quick demo on YouTube!
+To see our project in action, watch a quick demo on [YouTube](https://www.youtube.com/watch?v=CAsL6RKCipo)!
 <!-- LINK YOUTUBE VID HERE
 [![YouTube Demo](https://user-images.githubusercontent.com/92134792/169654930-86893442-06a4-4c9f-9371-730a79b39aaf.jpg)](https://www.youtube.com/watch?v=52vKAO761o8&ab_channel=RyanHu)
 -->
 
 Also feel free to check out the project's [wiki](https://github.com/siddkhannaa/summer-fling/wiki).
 
-### Built With
+### Built With 🏗
 
 - React.js
 - Javascript
@@ -45,7 +45,7 @@ Also feel free to check out the project's [wiki](https://github.com/siddkhannaa/
 
 <!-- GALLERY -->
 
-## Gallery
+## Gallery 🖌
 
 <img src="https://imgur.com/V5pMBBy.png" alt="Summer fling logo" title="Summer Fling" width="30%" />
 <img src="./docs/front-page.PNG" alt="Summer fling logo" title="Summer Fling" width="30%" />
@@ -60,17 +60,17 @@ Also feel free to check out the project's [wiki](https://github.com/siddkhannaa/
 
 ## Getting Started
 
-### Quickstart
+### Quickstart 🏃‍♂️
 
 Check out [our Github pages deployment](https://siddkhannaa.github.io/summer-fling/)!
 
-### Building it Yourself
+### Building it Yourself 🔨
 
 #### Prerequisites
 
 This application was developed and tested using Node.js 16.x.
 
-#### Steps
+#### Steps 👟
 
 First, clone this repo:
 ```
@@ -92,7 +92,7 @@ npm start
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## Contributing 🙌
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -109,7 +109,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+## Acknowledgments 🙏
 
 - CSS - for centering our divs
 
