@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/summer-fling/static/css/main.2d4b5853.css",
-    "main.js": "/summer-fling/static/js/main.1e76c6a7.js",
+    "main.css": "/summer-fling/static/css/main.352d4bc1.css",
+    "main.js": "/summer-fling/static/js/main.3e349d45.js",
     "static/js/787.c5e7f1d9.chunk.js": "/summer-fling/static/js/787.c5e7f1d9.chunk.js",
     "static/media/bg.jpg": "/summer-fling/static/media/bg.7337fba50c590ecc7138.jpg",
     "static/media/heart2.jpg": "/summer-fling/static/media/heart2.7f74dc3716a63053731d.jpg",
     "index.html": "/summer-fling/index.html",
-    "main.2d4b5853.css.map": "/summer-fling/static/css/main.2d4b5853.css.map",
-    "main.1e76c6a7.js.map": "/summer-fling/static/js/main.1e76c6a7.js.map",
+    "main.352d4bc1.css.map": "/summer-fling/static/css/main.352d4bc1.css.map",
+    "main.3e349d45.js.map": "/summer-fling/static/js/main.3e349d45.js.map",
     "787.c5e7f1d9.chunk.js.map": "/summer-fling/static/js/787.c5e7f1d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d4b5853.css",
-    "static/js/main.1e76c6a7.js"
+    "static/css/main.352d4bc1.css",
+    "static/js/main.3e349d45.js"
   ]
 }
