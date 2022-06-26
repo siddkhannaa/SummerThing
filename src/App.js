@@ -13,6 +13,7 @@ class App extends Component {
     <animate />,
     <Form />,
       <div className="footer">
+        <p>Check out our <a href="https://github.com/siddkhannaa/summer-fling/wiki">GitHub wiki</a>!</p>
         <p>Copyright (c) 2022 Siddharth Khanna</p>
       </div>
       ];
