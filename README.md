@@ -9,14 +9,7 @@
 
 <br />
 <div align="center">
-
-
-<h3 align="center">Summer Fling</h3>
   <p align="center">
-    😍 Discover the compatibility between two unsuspecting individuals 😳 <br />
-    ❤️ Match your friends in this ultimate calculator and who knows...it might just lead to a summer fling! ❤️
-    <br />
-    <br />
     <strong>Freyhacks2022 submission</strong>
   </p>
 </div>
@@ -36,6 +29,8 @@ To see our project in action, watch a quick demo on YouTube!
 [![YouTube Demo](https://user-images.githubusercontent.com/92134792/169654930-86893442-06a4-4c9f-9371-730a79b39aaf.jpg)](https://www.youtube.com/watch?v=52vKAO761o8&ab_channel=RyanHu)
 -->
 
+Also feel free to check out the project's [wiki](https://github.com/siddkhannaa/summer-fling/wiki).
+
 ### Built With
 
 - React.js
@@ -53,6 +48,8 @@ To see our project in action, watch a quick demo on YouTube!
 ## Gallery
 
 <img src="https://imgur.com/V5pMBBy.png" alt="Summer fling logo" title="Summer Fling" width="30%" />
+<img src="./docs/front-page.PNG" alt="Summer fling logo" title="Summer Fling" width="30%" />
+<img src="./docs/pb-banana.PNG" alt="Summer fling logo" title="Summer Fling" width="30%" />
 <!-- ADD IMAGES HERE
 <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/249/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/267/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/250/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/277/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/306/datas/original.png" width="45%"></img> 
 -->
@@ -63,38 +60,33 @@ To see our project in action, watch a quick demo on YouTube!
 
 ## Getting Started
 
-### Prerequisites
+### Quickstart
 
-- npm
-  ```sh
-  npm install --save react-stacked-carousel
-  ```
+Check out [our Github pages deployment](https://siddkhannaa.github.io/summer-fling/)!
 
-### Installation
+### Building it Yourself
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/siddkhannaa/summer-fling.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+#### Prerequisites
 
-### Quick Start
+This application was developed and tested using Node.js 16.x.
 
-Start backend
-`cd backend`
-`py app.py`
+#### Steps
 
-Start frontend
-`cd client`
-`npm start`
+First, clone this repo:
+```
+git clone https://github.com/siddkhannaa/summer-fling.git
+```
+
+Next, navigate to the repo and install the dependencies:
+```
+cd summer-fling
+npm install
+```
+
+Finally, start the server:
+```
+npm start
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -115,24 +107,10 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- CONTACT -->
-
-## Contact
-
-[Kevin](https://www.linkedin.com/in/ryannhu/) - email@email_client.com - [github](https://github.com/ryannhu)
-
-[Sid](https://www.linkedin.com/in/ryannhu/) - email@email_client.com - [github](https://github.com/ryannhu)
-
-[Elyssia](https://www.linkedin.com/in/ryannhu/) - email@email_client.com - [github](https://github.com/ryannhu)
-
-[Angela Law](https://www.linkedin.com/in/angela-law-01267b188/) - angelaw1459@gmail.com - [github](https://github.com/torotuna)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
-- 
+- CSS - for centering our divs
 
 <p align="right">(<a href="#top">back to top</a>)</p>
