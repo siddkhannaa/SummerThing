@@ -49,7 +49,7 @@ const FooBarForm = () => {
       <div className = "boxes"> 
         <input className="rounded" name="name1" type="text" placeholder="Your Name" onChange={handleChange} />
         <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="heart"></img></button>
-        <input className="rounded" name="name1" type="text" placeholder="Their Name" onChange={handleChange} />
+        <input className="rounded" name="name2" type="text" placeholder="Their Name" onChange={handleChange} />
       </div>
     </form>
   );

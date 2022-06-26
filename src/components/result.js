@@ -7,6 +7,9 @@ function Results(results) {
     return (
         [
         <div className='results'>
+            <div className='words'>
+                {results.results.sname} and {results.results.fname}
+            </div>
             <div className='percent'>
                 {results.results.percentage}
             </div>
