@@ -55,7 +55,7 @@ const FooBarForm = () => {
 
   return (
     <form>
-      <p className="desc">Enter your and your secret crush's name to see your match score!</p>
+      <p className="desc">Enter your name and your secret crush's to see your match score!</p>
       <div className = "boxes"> 
         <input className="rounded" name="name1" type="text" placeholder="Your Name" onChange={handleChange} />
         <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="heart"></img></button>
