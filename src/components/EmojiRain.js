@@ -6,13 +6,14 @@ import {BAD, GOOD, YEAH, BEST, SUMMER} from './emoji';
 const styles = {
   container: {
     position: 'fixed',
-    zIndex: 0.5,
+    zIndex: 2,
     fontSize: 0,
     top: 0,
     bottom: 0,
     left: 0,
     right: 0,
     overflow: 'hidden',
+    pointerEvents: 'none',
   },
   canvas: {
     background: 'transparent',

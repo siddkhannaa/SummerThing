@@ -69,43 +69,55 @@ input[type=text]:focus {
   outline-width: 0;
 }
 
-.boxes button {
-  background: pink;
-  width: 40px;
-  height: 40px;
-
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .rounded {
   border-radius: 10px;
   border: none;
 }
 
-.boxes button {
-    text-rendering: auto;
-    color: white;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: pink;
-    box-sizing: border-box;
-    font: 400 11px;
-    padding: 1px 7px 2px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+button {
+  background-color: pink;
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  font: 400 11px;
+  padding: 1px 7px 2px;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186); */
 }
 
-#heart_button:hover{
+button:hover{
   cursor: pointer;
+}
+
+.back-button {
+  margin: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.boxes button {
+    width: 40px;
+    height: 40px;
+
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button-hover {

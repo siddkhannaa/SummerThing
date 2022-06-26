@@ -2,23 +2,27 @@ import React, { Component }  from 'react';
 import './results.css';
 import EmojiRain from './EmojiRain';
 
-function Results(results) {
+function Results(props) {
+    let results = props.results
+    let unsubmit = props.unsubmit
 
-    console.log(results);
-    console.log("hey");
+    // console.log('meme');
+    // console.log(results);
+    // console.log(unsubmit);
     return (
         [
         <div className='results'>
             <div className='words'>
-                {results.results.fname} and {results.results.sname}
+                {results.fname} and {results.sname}
             </div>
             <div className='percent'>
-                {results.results.percentage}
+                {results.percentage}
             </div>
             <div className='words'>
-                {results.results.result}
+                {results.result}
             </div>
-            <EmojiRain active={true} drops={100} score={parseInt(results.results.percentage)} />
+            <EmojiRain active={true} drops={100} score={parseInt(results.percentage)} />
+            <button className="rounded back-button" onClick={unsubmit}>someone else perhaps?</button>
         </div>
         ]
 
