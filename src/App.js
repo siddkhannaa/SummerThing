@@ -10,12 +10,16 @@ class App extends Component {
       <h1>😳 Summer Fling 😳</h1>
     </div>,
     <animate />,
-    <Form />,
+    <body>
+      <Form />
+    </body>,
+    <footer>
       <div className="footer">
         <p>Check out our <a href="https://github.com/siddkhannaa/summer-fling/wiki">GitHub wiki</a>!</p>
         <p>Copyright (c) 2022 Siddharth Khanna</p>
       </div>
-      ];
+    </footer>
+    ];
   }
 }
 

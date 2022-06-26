@@ -15,8 +15,8 @@ function Results(props) {
             <div className='words'>
                 {results.fname} and {results.sname}
             </div>
-            <div className='percent'>
-                {results.percentage}
+            <div className='words'>
+                {results.percentage}% match!
             </div>
             <div className='words'>
                 {results.result}
