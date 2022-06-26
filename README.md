@@ -9,14 +9,7 @@
 
 <br />
 <div align="center">
-
-
-<h3 align="center">Summer Fling</h3>
   <p align="center">
-    😍 Discover the compatibility between two unsuspecting individuals 😳 <br />
-    ❤️ Match your friends in this ultimate calculator and who knows...it might just lead to a summer fling! ❤️
-    <br />
-    <br />
     <strong>Freyhacks2022 submission</strong>
   </p>
 </div>
@@ -55,6 +48,8 @@ Also feel free to check out the project's [wiki](https://github.com/siddkhannaa/
 ## Gallery
 
 <img src="https://imgur.com/V5pMBBy.png" alt="Summer fling logo" title="Summer Fling" width="30%" />
+<img src="./docs/front-page.PNG" alt="Summer fling logo" title="Summer Fling" width="30%" />
+<img src="./docs/pb-banana.PNG" alt="Summer fling logo" title="Summer Fling" width="30%" />
 <!-- ADD IMAGES HERE
 <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/249/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/267/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/250/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/277/datas/original.png" width="45%"></img> <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/885/306/datas/original.png" width="45%"></img> 
 -->
