@@ -9,8 +9,11 @@ const initialFormData = Object.freeze({
   name2: "",
 });
 
+
 const FooBarForm = () => {
   const [values, setValues] = useState(initialFormData);
+  const [submitted, setIsSubmitted] = useState(false);
+  const [results, setResults] = useState("");
 
   const options = {
       method: 'GET',
@@ -30,10 +33,16 @@ const FooBarForm = () => {
     fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${values.name1}&sname=${values.name2}`,
       options)
       .then(response => response.json())
-      .then(response => Results(response.result))
+      .then(response => {
+        setResults(response);
+        console.log(response.result);
+        setIsSubmitted(true);
+      })
       .catch(err => console.error(err));
+
   };
 
+  if (submitted) return <Results results = {results} />
 
   return (
     <form>
