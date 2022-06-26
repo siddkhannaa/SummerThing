@@ -1,8 +1,8 @@
 import { useState } from "react";
 import React  from 'react';
-import './App.css'
-import heart from './images/heart2.jpg'
-import Results from "./components/result";
+import '../App.css'
+import heart from '../images/heart2.jpg'
+import Results from "./result";
 
 const initialFormData = Object.freeze({
   name1: "",
@@ -47,9 +47,9 @@ const FooBarForm = () => {
   return (
     <form>
       <div className = "boxes"> 
-        <input className="rounded" name="name1" type="text" placeholder="Person 1" onChange={handleChange} />
-        <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="hello"></img></button>
-        <input className="rounded" name="name1" type="text" placeholder="Person 2" onChange={handleChange} />
+        <input className="rounded" name="name1" type="text" placeholder="Your Name" onChange={handleChange} />
+        <button className="rounded" onClick={handleSubmit}><img className = "heart" src={heart} alt="heart"></img></button>
+        <input className="rounded" name="name1" type="text" placeholder="Their Name" onChange={handleChange} />
       </div>
     </form>
   );

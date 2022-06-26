@@ -1,11 +1,11 @@
 
-<a href="https://github.com/siddkhannaa/SummerThing/">
+<a href="https://github.com/siddkhannaa/summer-fling/">
   <!-- ADD PROJECT IMG 
     <img src="https://i.imgur.com/88Gwvsz.png" alt="TikTokTLDR logo" title="TikTokTLDR" align="right" justify-content="center" height="60" />
   -->
 </a>
 
-# SummerThing
+# Summer Fling
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 
@@ -13,7 +13,7 @@
 <div align="center">
 
 
-<h3 align="center">SummerThing</h3>
+<h3 align="center">Summer Fling</h3>
   <p align="center">
     😍 Discover the compatibility between two unknowing individuals 😳 <br />
     <br />
@@ -26,7 +26,7 @@
 
 ## About The Project
 
-The [SummerThing] aims to discover the compatibility between two unknowing individuals 😍.
+The Summer Fling aims to discover the compatibility between two unknowing individuals 😍.
 
 
 To see our project in action, watch a quick demo on YouTube!
@@ -72,7 +72,7 @@ To see our project in action, watch a quick demo on YouTube!
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/siddkhannaa/SummerThing.git
+   git clone https://github.com/siddkhannaa/summer-fling.git
    ```
 3. Install NPM packages
    ```sh
